@@ -12,10 +12,6 @@ btnsNum.forEach(item => {
     })
 })
 
-if(input.value.length > 4) {
-    input.value = input.value.slice(0, -1);
-}
-
 btnCencel.addEventListener("click", () => {
     input.value = input.value.slice(0, -1);
 })
